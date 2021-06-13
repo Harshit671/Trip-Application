@@ -1,0 +1,21 @@
+.Addtrip_page{
+    display: flex;
+    flex-direction: column;
+   margin-right: 5rem;
+   height: 100%;
+   padding: 1rem;
+}
+h1{
+  padding: 10px;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+Button{
+    width: fit-content;
+}

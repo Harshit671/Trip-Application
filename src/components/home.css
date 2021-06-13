@@ -1,0 +1,23 @@
+p{
+    margin: 40px 0 !important ;
+    font-size:4rem;
+    font-weight: 500;
+    transition:2s all ease-in-out;
+}
+span{
+    font-size: x-small;
+}
+
+
+
+.extra{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  
+}
+.main_heading{
+    width: 100%;
+    text-align: center;
+    
+}
