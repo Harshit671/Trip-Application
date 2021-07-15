@@ -41,19 +41,7 @@ export default function tripReducer(state = initialState, action) {
         trips: [...state.trips, action.payload.trip]
       }
 
-    case PUT_TRIPS_SUCCESS:
-      let { id } = (action.payload || {}).trips || {};
-      let trips = state.trips.map(itm => {
-        if (itm.id === id) {
-
-        }
-        return itm;
-      });
-      return {
-        ...state,
-        trips: trips || []
-      }
-
+    
     default:
       // ALWAYS have a default case in a reducer
       return state;

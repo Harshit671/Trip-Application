@@ -1,4 +1,4 @@
-import { createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
 import rootReducers from "./reducers/tripReducer";
 
 // convert object to string and store in localStorage

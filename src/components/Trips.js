@@ -29,7 +29,7 @@ function Trips() {
         }
     }, [])
     const handleFilterData = ({ target: { value: type } }) => {
-        console.log({ type })
+        console.log({ type },"hellllloooooooooo")
         setFilterName(type);
         let allTrips = [...trips];
         if (type == 'all') {
